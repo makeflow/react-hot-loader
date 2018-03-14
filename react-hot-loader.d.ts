@@ -1,4 +1,4 @@
-declare module 'react-hot-loader' {
+declare module '@makeflow/react-hot-loader' {
   import * as React from 'react'
 
   interface ErrorReporterProps {

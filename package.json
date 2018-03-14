@@ -1,5 +1,5 @@
 {
-  "name": "react-hot-loader",
+  "name": "@makeflow/react-hot-loader",
   "version": "4.0.0",
   "description": "Tweak React components in real time.",
   "main": "index.js",
