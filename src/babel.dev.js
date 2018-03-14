@@ -25,7 +25,7 @@ module.exports = function plugin(args) {
   )
   const headerTemplate = template(
     `(function () {
-       var enterModule = require('react-hot-loader').enterModule;
+       var enterModule = require('@makeflow/react-hot-loader').enterModule;
        enterModule && enterModule(module);
      }())`,
     templateOptions,
@@ -37,8 +37,8 @@ module.exports = function plugin(args) {
   const buildTagger = template(
     `
 (function () {
-  var reactHotLoader = require('react-hot-loader').default;
-  var leaveModule = require('react-hot-loader').leaveModule;
+  var reactHotLoader = require('@makeflow/react-hot-loader').default;
+  var leaveModule = require('@makeflow/react-hot-loader').leaveModule;
 
   if (!reactHotLoader) {
     return;
